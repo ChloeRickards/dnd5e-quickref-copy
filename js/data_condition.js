@@ -48,7 +48,7 @@ data_condition = [
     {
         title: "Frightened",
         icon: "sharp-smile",
-        subtitle: "D on d20s, can't move closer",
+        subtitle: "D on non-save d20s, can't move closer",
         description: "You are frightened",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -93,7 +93,7 @@ data_condition = [
     {
         title: "Paralyzed",
         icon: "internal-injury",
-        subtitle: "Incapacitated, A and auto-crit <-, DEX + STR auto-fail",
+        subtitle: "Incapacitated, A <-, fail DEX + STR",
         description: "You can't do anything",
         bullets: [
             "You are incapacitated and can't move or speak.",
@@ -105,7 +105,7 @@ data_condition = [
     {
         title: "Petrified",
         icon: "stone-pile",
-        subtitle: "Incapacitated + A <-, DEX and STR auto-fail",
+        subtitle: "Paralyzed + damage resistant",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
         bullets: [
@@ -120,7 +120,7 @@ data_condition = [
     {
         title: "Poisoned",
         icon: "deathcab",
-        subtitle: "D on attack rolls and ability checks",
+        subtitle: "D on non-save d20s",
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -130,7 +130,7 @@ data_condition = [
     {
         title: "Prone",
         icon: "crawl",
-        subtitle: "D ->, A <-, crawl, half movement to stand",
+        subtitle: "D ->, A <-, half movement to stand",
         description: "You are prone",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -155,7 +155,7 @@ data_condition = [
     {
         title: "Stunned",
         icon: "internal-injury",
-        subtitle: "Incapacitated + A <-, auto-fail STR + DEX",
+        subtitle: "Incapacitated, A <-, STR + DEX fail",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
