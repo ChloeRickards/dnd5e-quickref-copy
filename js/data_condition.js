@@ -2,7 +2,7 @@ data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",
-        subtitle: "Fail sight-based checks, Disadv. to attack others, Adv. to attack you",
+        subtitle: "Fail sight checks, D ->, A <-",
         description: "You can't see",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -14,7 +14,7 @@ data_condition = [
     {
         title: "Charmed",
         icon: "smitten",
-        subtitle: "You can't harm your charmer, charmer has advantage on social abilities",
+        subtitle: "You can't harm your charmer",
         description: "You are charmed by another creature",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -25,7 +25,7 @@ data_condition = [
     {
         title: "Deafened",
         icon: "elf-ear",
-        subtitle: "Fail hearing-based checks",
+        subtitle: "Fail hearing checks",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -35,7 +35,7 @@ data_condition = [
     {
         title: "Exhaustion",
         icon: "crawl",
-        subtitle: "Effects depend on exhaustion level",
+        subtitle: "Depends on exhaustion level",
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 291.",
         bullets: [
@@ -48,7 +48,7 @@ data_condition = [
     {
         title: "Frightened",
         icon: "sharp-smile",
-        subtitle: "Disadv. on ability checks and attack rolls while in line of sight, can't move closer",
+        subtitle: "D on d20s, can't move closer",
         description: "You are frightened",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -80,7 +80,7 @@ data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "Adv. to attack others, Disadv. to attack you",
+        subtitle: "A ->, D <-",
         description: "You can't be seen without the aid of magic or a special sense",
         reference: "PHB, pg. 291.",
         bullets: [
@@ -93,7 +93,7 @@ data_condition = [
     {
         title: "Paralyzed",
         icon: "internal-injury",
-        subtitle: "Incapacitated + Adv. to attack you, close attacks crit, fail all DEX and STR throws",
+        subtitle: "Incapacitated, A and auto-crit <-, DEX + STR auto-fail",
         description: "You can't do anything",
         bullets: [
             "You are incapacitated and can't move or speak.",
@@ -105,7 +105,7 @@ data_condition = [
     {
         title: "Petrified",
         icon: "stone-pile",
-        subtitle: "Incapacitated + Adv. to attack you, fail all DEX and STR throws, resistance to damage, immunity to poison",
+        subtitle: "Incapacitated + A <-, DEX and STR auto-fail",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
         bullets: [
@@ -120,7 +120,7 @@ data_condition = [
     {
         title: "Poisoned",
         icon: "deathcab",
-        subtitle: "Disadv. on attack rolls and ability checks",
+        subtitle: "D on attack rolls and ability checks",
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -130,7 +130,7 @@ data_condition = [
     {
         title: "Prone",
         icon: "crawl",
-        subtitle: "Disadv. to attack others, Disadv. to attack you if enemy > 5 ft, Adv. to attack you if enemy <= 5 ft, crawl, half movement to stand",
+        subtitle: "D ->, A <-, crawl, half movement to stand",
         description: "You are prone",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -142,7 +142,7 @@ data_condition = [
     {
         title: "Restrained",
         icon: "imprisoned",
-        subtitle: "Speed = 0, Disadv. to attack others, Adv. to attack you, Disadv. on DEX saves",
+        subtitle: "Speed = 0, D ->, A <-, D on DEX",
         description: "You are restrained",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -155,7 +155,7 @@ data_condition = [
     {
         title: "Stunned",
         icon: "internal-injury",
-        subtitle: "Incapacitated + Adv. to attack you, fail all STR and DEX saves",
+        subtitle: "Incapacitated + A <-, auto-fail STR + DEX",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
